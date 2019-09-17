@@ -2,8 +2,8 @@ const SanityClient = require('@sanity/client')
 const crawler = require('crawler-request');
 
 const client = SanityClient({
-  projectId: 'ew7tl7w1',
-  dataset: 'production',
+  projectId: '<your project ID>',
+  dataset: '<your dataset name>',
   useCdn: false,
   token: process.env.SANITY_TOKEN
 })
