@@ -1,0 +1,25 @@
+{
+  "name": "sanity-pdf-to-text",
+  "version": "1.0.0",
+  "description": "Extract text from pdf uploads to Sanity.io",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "build": "next",
+    "dev": "next",
+    "now-dev": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sanity", "now", "serverless", "pdf"],
+  "author": "Knut Melvær <knut@sanity.io>",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^0.142.0",
+    "crawler-request": "^1.2.2",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
