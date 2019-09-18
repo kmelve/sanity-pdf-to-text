@@ -1,5 +1,7 @@
 {
   "env": {
+    "SANITY_PROJECT_ID": "<your project id>",
+    "SANITY_DATASET": "<your dataset name>",
     "SANITY_TOKEN": "@sanity_token"
   }
 }

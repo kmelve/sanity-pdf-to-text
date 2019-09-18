@@ -1,10 +1,10 @@
 # Extract text from pdf uploads to Sanity.io
 
-This is a proof of concept example of how to use lambdas on [Zeit’s Now](https://zeit.co/now) to annotate asset documents for pdf uploads to Sanity.io with the embded text (if there is any).
+This is a proof of concept example of how to use lambdas on [Zeit’s Now](https://zeit.co/now) to annotate asset documents for pdf uploads to Sanity.io with the embedded text (if there is any).
 
 ## Getting started
 
-First change `projectId` and `dataset` in the `SanityClient` configuration in extract.js. Then run the following in the command line:
+First change `projectId` and `dataset` in `now.json` to yours. Then run the following in the command line:
 
 ```text
 $ npm i -g now && npm i
